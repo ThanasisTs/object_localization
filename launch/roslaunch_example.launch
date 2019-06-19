@@ -1,0 +1,17 @@
+<launch>    
+	
+	<include file="$(find object_localization)/launch/listener.launch" />
+
+    <node name="Node1" pkg="object_localization" type="listenerCamera" output="screen">
+    </node>
+
+    <node name="Node2" pkg="object_localization" type="listenerCamera" output="screen">
+    </node>
+
+
+    <node name="BaseNode" pkg="object_localization" type="object_loc_ROS" output="screen">
+    </node>
+
+
+
+</launch>

@@ -1,0 +1,12 @@
+output_topic: camera_pos
+model_ss_: 0.01;
+scene_ss_: 0.01;
+rf_rad_: 0.015;
+descr_rad_: 0.02;
+cg_size_: 0.01;
+cg_thresh_: 5.0;
+xmax_scn: 1.5;  
+xmin_scn: 0.0;
+ymax_scn: 0.5;
+ymin_scn: -0.3;
+use_cloud_resolution_: false;

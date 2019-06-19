@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+
+    <node pkg="object_localization" type="object_loc_ROS" respawn="false" name="object_localization" output="screen">
+        <rosparam file="$(find object_localization)/config/xtion.yaml" command="load" />
+    </node>
+
+    <node pkg="object_localization" type="listenerCamera" respawn="false" name="listenerCamera" output="screen">
+    </node>
+
+    <node pkg="object_localization" type="listenerBaseLink" respawn="false" name="listenerBaseLink" output="screen">
+    </node>
+
+</launch>

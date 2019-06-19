@@ -1,0 +1,6 @@
+<launch>
+	<node name="listener" pkg="object_localization" type="listenerBaseLink" output="screen" >
+	</node>
+
+
+</launch>
